@@ -1,0 +1,336 @@
+{
+  "users": [
+    {
+      "fullName": "Eric Albetdron",
+      "username": "albetdron19",
+      "email": "albetdron19@gmail.com",
+      "password": "56417683",
+      "role": "user",
+      "id": 1
+    },
+    {
+      "fullName": "Anabella Larissa",
+      "username": "abellaa",
+      "email": "abella@gmail.com",
+      "password": "abella",
+      "role": "user",
+      "id": 2
+    },
+    {
+      "fullName": "Taylor Swift",
+      "username": "swift",
+      "email": "swift@gmail.com",
+      "password": "mytaylor",
+      "role": "user",
+      "id": 3
+    },
+    {
+      "fullName": "Chyntia Bella",
+      "username": "ChyB",
+      "email": "cbella@gmail.com",
+      "password": "bellachyntia",
+      "role": "user",
+      "id": 4
+    },
+    {
+      "fullName": "Mira Jane",
+      "username": "mira11",
+      "email": "miraa11@gmail.com",
+      "password": "mira11",
+      "role": "user",
+      "id": 5
+    },
+    {
+      "fullName": "Alejandros",
+      "username": "alee",
+      "email": "alejandros@gmail.com",
+      "password": "aleja11",
+      "role": "user",
+      "id": 6
+    },
+    {
+      "fullName": "Admin",
+      "username": "Admin",
+      "email": "admins@gmail.com",
+      "password": "admin",
+      "role": "admin",
+      "id": 7
+    }
+  ],
+  "transactions": [
+    {
+      "userId": 1,
+      "address": "Jl. Padat Karya 3",
+      "recipientName": "Eric",
+      "totalPrice": 341250,
+      "totalPayment": 500000,
+      "transactionDate": "5-12-2021",
+      "transactionItems": [
+        {
+          "userId": 1,
+          "productId": 1,
+          "price": 25000,
+          "productName": "Kaos Hitam Polos",
+          "productImage": "https://images.tokopedia.net/img/cache/500-square/product-1/2019/6/25/3501336/3501336_1287813a-33db-4768-8558-b27403a6bd87_554_554.jpg",
+          "quantity": 7,
+          "id": 1
+        },
+        {
+          "userId": 1,
+          "productId": 6,
+          "price": 150000,
+          "productName": "Celana Hitam Panjang",
+          "productImage": "https://media.karousell.com/media/photos/products/2019/06/30/celana_hitam_formal_1561864273_2bdc5cb2_progressive.jpg",
+          "quantity": 1,
+          "id": 3
+        }
+      ],
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "address": "Padat Karya",
+      "recipientName": "Eric dua",
+      "totalPrice": 341250,
+      "totalPayment": 350000,
+      "transactionDate": "5-12-2021",
+      "transactionItems": [
+        {
+          "userId": 1,
+          "productId": 1,
+          "price": 25000,
+          "productName": "Kaos Hitam Polos",
+          "productImage": "https://images.tokopedia.net/img/cache/500-square/product-1/2019/6/25/3501336/3501336_1287813a-33db-4768-8558-b27403a6bd87_554_554.jpg",
+          "quantity": 7,
+          "id": 1
+        },
+        {
+          "userId": 1,
+          "productId": 6,
+          "price": 150000,
+          "productName": "Celana Hitam Panjang",
+          "productImage": "https://media.karousell.com/media/photos/products/2019/06/30/celana_hitam_formal_1561864273_2bdc5cb2_progressive.jpg",
+          "quantity": 1,
+          "id": 3
+        }
+      ],
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "address": "Jl. Padat Karya 3",
+      "recipientName": "Eric tiga",
+      "totalPrice": 341250,
+      "totalPayment": 400000,
+      "transactionDate": "5-12-2021",
+      "transactionItems": [
+        {
+          "userId": 1,
+          "productId": 1,
+          "price": 25000,
+          "productName": "Kaos Hitam Polos",
+          "productImage": "https://images.tokopedia.net/img/cache/500-square/product-1/2019/6/25/3501336/3501336_1287813a-33db-4768-8558-b27403a6bd87_554_554.jpg",
+          "quantity": 7,
+          "id": 1
+        },
+        {
+          "userId": 1,
+          "productId": 6,
+          "price": 150000,
+          "productName": "Celana Hitam Panjang",
+          "productImage": "https://media.karousell.com/media/photos/products/2019/06/30/celana_hitam_formal_1561864273_2bdc5cb2_progressive.jpg",
+          "quantity": 1,
+          "id": 3
+        }
+      ],
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "address": "Jl. Padat Karya",
+      "recipientName": "Eric AB",
+      "totalPrice": 52500,
+      "totalPayment": 70000,
+      "transactionDate": "6-12-2021",
+      "transactionItems": [
+        {
+          "userId": 1,
+          "productId": 1,
+          "price": 25000,
+          "productName": "Kaos Hitam Polos",
+          "productImage": "https://images.tokopedia.net/img/cache/500-square/product-1/2019/6/25/3501336/3501336_1287813a-33db-4768-8558-b27403a6bd87_554_554.jpg",
+          "quantity": 2,
+          "id": 1
+        }
+      ],
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "productName": "Kaos Hitam Polos",
+      "price": 25000,
+      "productImage": "https://images.tokopedia.net/img/cache/500-square/product-1/2019/6/25/3501336/3501336_1287813a-33db-4768-8558-b27403a6bd87_554_554.jpg",
+      "description": "Kaos berwarna hitam tanpa motif",
+      "category": "kaos"
+    },
+    {
+      "id": 2,
+      "productName": "Kaos Pink Polos",
+      "price": 28000,
+      "productImage": "https://cf.shopee.co.id/file/590dd1eecb11ea1a151a40a387182e0f",
+      "description": "Kaos berwarna pink tanpa motif",
+      "category": "kaos"
+    },
+    {
+      "id": 3,
+      "productName": "Kaos Merah Polos",
+      "price": 28000,
+      "productImage": "https://www.kibrispdr.org/data/gambar-kaos-polos-merah-1.jpg",
+      "description": "Kaos dengan warna merah tanpa motif",
+      "category": "kaos"
+    },
+    {
+      "id": 4,
+      "productName": "Kaos Biru Polos",
+      "price": 28000,
+      "productImage": "https://images.tokopedia.net/img/cache/500-square/product-1/2017/7/27/3803443/3803443_cfdfa5ab-51db-4bc0-b81a-34addba6ae1c_1000_1250.jpg",
+      "description": "Kaos dengan warna biru tanpa motif",
+      "category": "kaos"
+    },
+    {
+      "id": 5,
+      "productName": "Kaos Kuning Polos",
+      "price": 28000,
+      "productImage": "https://id-test-11.slatic.net/p/1117a8779b500e47e5044239a6d28ad3.jpg",
+      "description": "Kaos dengan warna kuning tanpa motif",
+      "category": "kaos"
+    },
+    {
+      "id": 6,
+      "productName": "Celana Hitam Panjang",
+      "price": 150000,
+      "productImage": "https://media.karousell.com/media/photos/products/2019/06/30/celana_hitam_formal_1561864273_2bdc5cb2_progressive.jpg",
+      "description": "Celana hitam panjang dengan warna hitam",
+      "category": "celana"
+    },
+    {
+      "id": 7,
+      "productName": "Celana Training Hitam",
+      "price": 135000,
+      "productImage": "http://cdn.elevenia.co.id/g/6/4/1/8/4/0/23641840_A2.jpg",
+      "description": "Celana panjang untuk olahraga berwarna hitam",
+      "category": "celana"
+    },
+    {
+      "id": 8,
+      "productName": "Celana Jeans Biru",
+      "price": 176000,
+      "productImage": "https://dynamic.zacdn.com/sI2qmsM8CFPMFTmjB9YQyUDh6ok=/fit-in/346x500/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/pingu-9479-6579852-1.jpg",
+      "description": "Celana jeans modis dengan warna biru",
+      "category": "celana"
+    },
+    {
+      "id": 9,
+      "productName": "Celana Nike Pendek",
+      "price": 80000,
+      "productImage": "https://s1.bukalapak.com/img/68141106412/large/Celana_Nike_Pendek_Navy_Biru_Dongker_Bahan_Kaos_Katun.jpg",
+      "description": "Celana nike pendek cocok untuk olahraga dan santai",
+      "category": "celana"
+    },
+    {
+      "id": 11,
+      "productName": "Suunto Digital",
+      "price": 9500000,
+      "productImage": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//78/MTA-3212501/suunto_suunto-digital-jam-tangan-pria--ss050145000-_full05.jpg",
+      "description": "Jam tangan pria modis pria tipe digital dengan warna hitam",
+      "category": "aksesoris"
+    },
+    {
+      "id": 12,
+      "productName": "Kalung Emas Aurum Diora",
+      "price": 1500000,
+      "productImage": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//89/MTA-6060444/aurum_aurum_kalung_emas_9k_-diora_full04_mrhehf3v.jpg",
+      "description": "Kalung emas untuk wanita merk Aurum Diora",
+      "category": "aksesoris"
+    },
+    {
+      "id": 13,
+      "productName": "Gelang Tali Prusik",
+      "price": 3500,
+      "productImage": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//90/MTA-6307108/gelang_gelang_tali_prusik_full05_dg30rdzl.jpg",
+      "description": "Gelang modis tali prusik warna hitam",
+      "category": "aksesoris"
+    },
+    {
+      "id": 14,
+      "productName": "Topi Ediko",
+      "price": 17500,
+      "productImage": "https://www.jakartanotebook.com/images/products/72/63/22061/2/ediko-topi-baseball-golf-logo-ediko-sport-fashion-black-306.jpg",
+      "description": "Topi hitam merk Eriko cocok untuk olahraga",
+      "category": "aksesoris"
+    },
+    {
+      "id": 15,
+      "productName": "Topi Hunting",
+      "price": 250000,
+      "productImage": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//93/MTA-8560217/oem_topi_rimba_topi_berburu_hunting_caps_hunting_sun_hat_steppe_full01_ckdfxbtf.jpg",
+      "description": "Topi untuk berburu",
+      "category": "aksesoris"
+    },
+    {
+      "productName": "Kaos Olahraga Hitam",
+      "price": 170000,
+      "productImage": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//106/MTA-11907699/oem_t-shirt_-_baju_kaos_running_atasan_olahraga_pria_dri-fit_hitam_3091_full01_ohajzyh7.jpg",
+      "description": "Kaos pria untuk aktivitas olahraga",
+      "category": "kaos",
+      "id": 16
+    },
+    {
+      "productName": "Celana Bola Barca Away",
+      "price": 50000,
+      "productImage": "https://images.tokopedia.net/img/cache/500-square/product-1/2021/1/21/inv/inv_03e705e9-65a3-4f70-8073-e432cb5bcfa5_788_788.jpg",
+      "description": "Celana bola club FC Barcelona warna hitam",
+      "category": "celana",
+      "id": 17
+    },
+    {
+      "productName": "Celana Bola Man City Away",
+      "price": 52000,
+      "productImage": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//87/MTA-11623055/oem_celana_bola_manchester_city_footbal_club_celana_futsal_celana_olahraga_full01_r4q96yus.jpg",
+      "description": "Celana bola club Manchester City terbaru dengan warna putih",
+      "category": "celana",
+      "id": 18
+    }
+  ],
+  "carts": [
+    {
+      "userId": 1,
+      "productId": 4,
+      "price": 28000,
+      "productName": "Kaos Biru Polos",
+      "productImage": "https://images.tokopedia.net/img/cache/500-square/product-1/2017/7/27/3803443/3803443_cfdfa5ab-51db-4bc0-b81a-34addba6ae1c_1000_1250.jpg",
+      "quantity": 2,
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "productId": 5,
+      "price": 28000,
+      "productName": "Kaos Kuning Polos",
+      "productImage": "https://id-test-11.slatic.net/p/1117a8779b500e47e5044239a6d28ad3.jpg",
+      "quantity": 1,
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "productId": 17,
+      "price": 50000,
+      "productName": "Celana Bola Barca Away",
+      "productImage": "https://images.tokopedia.net/img/cache/500-square/product-1/2021/1/21/inv/inv_03e705e9-65a3-4f70-8073-e432cb5bcfa5_788_788.jpg",
+      "quantity": 1,
+      "id": 3
+    }
+  ]
+}
